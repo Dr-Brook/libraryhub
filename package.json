@@ -1,0 +1,38 @@
+{
+  "name": "libraryhub",
+  "version": "1.0.0",
+  "description": "DMV Library Hub — Discover unique library offerings across DC, Maryland, and Virginia",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3003",
+    "build": "next build",
+    "start": "next start -p 3003",
+    "seed": "tsx seed/index.ts",
+    "generate:types": "payload generate:types",
+    "generate:graphQLSchema": "payload generate:graphQLSchema"
+  },
+  "dependencies": {
+    "@payloadcms/db-sqlite": "^3.88.0",
+    "@payloadcms/graphql": "^3.88.0",
+    "@payloadcms/next": "^3.88.0",
+    "@payloadcms/plugin-seo": "^3.88.0",
+    "@payloadcms/richtext-lexical": "^3.88.0",
+    "graphql": "^16.14.2",
+    "next": "^16.3.4",
+    "payload": "^3.88.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.4.1",
+    "@types/react": "^19.2.18",
+    "autoprefixer": "^10.5.5",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.13",
+    "typescript": "7.0.2"
+  }
+}
